@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+/*shifting page links to the right of the navbar*/
+.navbar-right {
+  margin-left: auto;
+}
+/*Making background behind my name in navbar blue*/
+.navbar-brand {
+  background-color: rgba(153, 196, 245, 0.884);
+}
+/*making my name font color white in nav bar*/
+.navbar-light .navbar-brand  {
+  color: white;
+}
+/*Setting background image for page*/
+.bg {
+  background-image: url("IMG_0175.JPG");
+  background-color: lightblue;
+  height: 1350px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.container {
+  margin-top: 150px;
+}
+
+div .row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/*setting background color and opacity for the form*/
+.col-md-8 {
+  background-color: rgba(219, 226, 235, 0.8);
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+#sticky-footer {
+  flex-shrink: 0;
+}
+/*centering text and icons in footer*/
+.text-center {
+  margin-top: 0;
+  padding-right: 10px;
+}
+
