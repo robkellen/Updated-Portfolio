@@ -3,7 +3,8 @@
 }
 
 .navbar {
-  background-color: non e !important;
+  z-index: 99;
+
 }
 /*shifting page links to the right of the navbar*/
 .navbar-right {
@@ -11,11 +12,15 @@
 }
 /*Making background behind my name in navbar blue*/
 .navbar-brand {
-  background-color: rgba(153, 196, 245, 0.884);
+  background-color: #f1761e;
 }
 /*making my name font color white in nav bar*/
 .navbar-light .navbar-brand  {
   color: white;
+}
+
+.carousel {
+  margin-top: -100px;
 }
 
 #greeting p {
@@ -25,8 +30,8 @@
 
 
 #meBackground {
-  background-image: linear-gradient(to bottom, rgba(241, 241, 241, 0.966), rgba(241,174,25,1));
-  background-color: rgb(241, 174, 125);
+  background-image: linear-gradient(to bottom, rgba(241, 241, 241, 0.966), rgba(241,118,30,1));
+  background-color: #f1761e;
 }
 
 
@@ -37,21 +42,14 @@
 div .header {
   margin-bottom: 20px;
 }
-/*Setting position of headshot image*/
-#headshot {
-  width: 175px;
-  height: auto;
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 5px;
-}
+
 /*Setting style and alignment of bio to wrap around image*/
-p {
+/* p {
   color: rgb(13, 34, 51);
   text-align: justify;
   font-size: 18px;
   font-weight: bolder;
-}
+} */
 
 #sticky-footer {
   flex-shrink: 0;
