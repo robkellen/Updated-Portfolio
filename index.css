@@ -3,7 +3,7 @@
 }
 
 .navbar {
-  background-color: none;
+  background-color: non e !important;
 }
 /*shifting page links to the right of the navbar*/
 .navbar-right {
@@ -17,26 +17,18 @@
 .navbar-light .navbar-brand  {
   color: white;
 }
-/*Setting background image for page*/
-.bg {
-  background-image: url("dan-maisey-uD-rUHU-1OQ-unsplash.jpg");
-  background-color: lightblue;
-  height: 1350px;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
+
+#greeting p {
+  font-size: 10vw;
+  text-align-last: right;
 }
 
-.container {
-  margin-top: 150px;
+
+#meBackground {
+  background-image: linear-gradient(to bottom, rgba(241, 241, 241, 0.966), rgba(241,174,25,1));
+  background-color: rgb(241, 174, 125);
 }
-/*setting background color and opacity for About Me section*/
-.col-md-8  {
-  background-color: rgba(219, 226, 235, 0.8);
-  margin-right: 50px;
-}
+
 
 .col-sm-12 {
   margin-right: 0;
