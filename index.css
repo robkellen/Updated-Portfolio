@@ -19,13 +19,17 @@
   color: white;
 }
 
+.nav-link {
+  color: #f1761e !important;
+}
+
 .carousel {
   margin-top: -100px;
 }
 
 #greeting p {
   font-size: 10vw;
-  text-align-last: right;
+  text-align-last: center;
 }
 
 
@@ -34,22 +38,25 @@
   background-color: #f1761e;
 }
 
-
-.col-sm-12 {
-  margin-right: 0;
-}
-
 div .header {
   margin-bottom: 20px;
 }
 
+/*Setting position of headshot image*/
+#headshot {
+  width: 150px;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
 /*Setting style and alignment of bio to wrap around image*/
-/* p {
+p {
   color: rgb(13, 34, 51);
   text-align: justify;
   font-size: 18px;
   font-weight: bolder;
-} */
+}
 
 #sticky-footer {
   flex-shrink: 0;

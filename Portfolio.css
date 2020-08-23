@@ -34,12 +34,12 @@
   margin-bottom: 20px;  
 }
 
-.col-md-8 {
+.col-md-10 {
   margin-top: 50px;
   background-color: rgba(219, 226, 235, 0.8); 
 }
 
-.col-md-6 {
+.col-sm {
   padding: 10px;
 }
 /* Setting position/size of images*/
@@ -47,8 +47,8 @@ div img {
   padding-bottom: 40px;
   display: block;
   margin: auto;
-  height: 350px;
-  width: 350px;
+  height: 400px;
+  width: 400px;
 }
 
 #sticky-footer {
