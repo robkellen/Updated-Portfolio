@@ -18,39 +18,92 @@
     <title>Rob Kellen: About Me</title>
   </head>
 
+  
   <body>
-     <!--nav bar content-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!--nav bar content-->
+    <nav class="navbar navbar-expand-lg navbar-light">
       <span class="navbar-brand mb-1 h1">Rob Kellen</span>
       <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="nav-item-active">
-            <a class="nav-link" href="AboutMe.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Contact.html">Contact</a>
-          </li>
-        </ul>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item-active">
+          <a class="nav-link" href="AboutMe.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Assets/imgWork.jpg" class="d-block w-100" alt="Man at Work">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Work Hard.</h1>                                                           
+        </div>
       </div>
-    </nav>
+      <div class="carousel-item">
+        <img src="Assets/imgPlay.JPG" class="d-block w-100" alt="Me Golfing">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Play Hard.</h1>
+          </div>
+      </div>
+    </div>
+  </div> 
+  <div></div>
+  <div id="meBackground">
+    <div class="container">
+      <main class="row">
+        <div class="col-sm-9">
+          <div class="header">
+            <h1>About Me</h1>
+          </div>
+          <section class="row">
+            <div class="col-md">
+              <img
+                id="headshot"
+                src="image0 (1).jpg"
+                alt="Picture of Me"
+                class="rounded"
+              />
+              <p>
+                I grew up in the NW suburbs of Chicago, and initially attended the University of Illinois in Champaign-Urbana.  After spending 2 years there I grew tired of being surrounded by corn fields and moved West out to Denver, CO to further pursue my education in an environment more suited to my love for the outdoors.  I studied Poliltical Science and Internation Studies, but my passion for this field faded after realizing that it mostly consists of arguments that have no end.  As fate would have it a childhood friend persuaded me to take a break and move to Jackson, WY to work with him at a hotel as a "ski valet" - aka become a ski bum with some income.  
+                Over the course of the next 7 years in Jackson I had turned this opportunity into a solid career, and met my amazing wife Natalie.  
+                In 2017 Natalie was presented with a career opportunity that was too good to pass up, and we moved to Scottsdale, AZ where we both continued to work in hospitality.  In June 2018 we were blessed to welcome our daughter Cecelia into the world, followed shortly after by Scarlett in December 2019.  
+                This year, COVID changed the world as we know it for everyone, and it's detrimental impact on the hospitality industry unfortunately led to the loss of my job.  
+                As I pondered my future I became increasingly interested in coding and the endless bounds of its application.  While I thoroughly enjoyed my experience in hospitality, I am extremely excited about embarking on this new journey into the world of coding!  Outside of coding I am a professional dad, avid golfer, hibernating skiier, world traveler, and a fiercely loyal follower of the Blackhawks, Cubs, Bears, Bulls, and Liverpool FC who still enjoys kicking it with his buddies.
+              </p>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+
+  </div>
 
 
 
-    
+
 
     <!--Sticky footer-->
     <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
@@ -80,5 +133,6 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script>"index.js"</script>
   </body>
 </html>

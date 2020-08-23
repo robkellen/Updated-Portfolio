@@ -15,7 +15,7 @@
 }
 /*Setting background image for page*/
 .bg {
-  background-image: url("IMG_0175.JPG");
+  background-image: url(Assets/MutedSquares.jpg);
   background-color: lightblue;
   height: 1350px;
   width: 100%;

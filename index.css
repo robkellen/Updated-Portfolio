@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+
+.navbar {
+  background-color: none;
+}
 /*shifting page links to the right of the navbar*/
 .navbar-right {
   margin-left: auto;
