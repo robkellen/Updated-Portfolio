@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
 }
-
+/* NAVBAR */
 .navbar {
   z-index: 99;
-
+  background-color: rgba(219, 226, 235, 0.9);
 }
 /*shifting page links to the right of the navbar*/
 .navbar-right {
@@ -23,15 +23,20 @@
   color: #f1761e !important;
 }
 
+
+
+
+/* CAROUSEL */
 .carousel {
   margin-top: -100px;
 }
 
+
+/* MAIN CONTENT */
 #greeting p {
   font-size: 10vw;
   text-align-last: center;
 }
-
 
 #meBackground {
   background-image: linear-gradient(to bottom, rgba(241, 241, 241, 0.966), rgba(241,118,30,1));
@@ -58,6 +63,8 @@ p {
   font-weight: bolder;
 }
 
+
+/* FOOTER */
 #sticky-footer {
   flex-shrink: 0;
 }
