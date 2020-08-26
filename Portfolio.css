@@ -31,8 +31,8 @@
 /*Setting background image for page*/
 .bg {
   margin-top: -75px;
-  background-image: url("Assets/MutedSquares.jpg");
-  background-color: lightblue;
+  background-image: url("Assets/sincerely-media-UMyt7_RrKpY-unsplash.jpg");
+  /* background-color: lightblue; */
   /* height: 1350px; */
   width: 100%;
   background-position: center;
@@ -50,14 +50,16 @@
 
 #header-card  {
   margin-top: 150px;
-  background-color: rgb(66, 99, 235, 0.5);
+  background-color: rgb(122, 250, 147, 0.5);
   padding-bottom: 50px;  
 }
 
 .col-sm {
-  background-color: rgb(66, 99, 235, 0.5);
+  background-color: rgb(122, 250, 147, 0.5);
   padding: 10px;
   width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
   /* position: relative;  */
 }
 
