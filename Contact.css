@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
 }
+
+/* NAVBAR */
 /*shifting page links to the right of the navbar*/
 .navbar-right {
   margin-left: auto;
@@ -20,6 +22,9 @@
 .navbar-light .navbar-brand  {
   color: white;
 }
+
+
+/* MAIN BODY */
 /*Setting background image for page*/
 .bg {
   background-image: url("Assets/sincerely-media-UMyt7_RrKpY-unsplash.jpg");
@@ -49,6 +54,17 @@ div .row {
   padding-bottom: 10px;
 }
 
+.card {
+  background-color: rgba(219, 226, 235, 0.8);
+  margin-right: 10px;
+}
+
+#mobile {
+  vertical-align: middle;
+}
+
+
+/* FOOTER */
 #sticky-footer {
   flex-shrink: 0;
 }
