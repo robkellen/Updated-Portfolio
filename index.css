@@ -4,7 +4,7 @@
 /* NAVBAR */
 .navbar {
   z-index: 99;
-  background-color: rgba(219, 226, 235, 0);
+  background-color: #01355b;
 }
 /*shifting page links to the right of the navbar*/
 .navbar-right {
@@ -12,7 +12,7 @@
 }
 /*Making background behind my name in navbar blue*/
 .navbar-brand {
-  background-color: #f1761e;
+  background-color: #0b8911;
 }
 /*making my name font color white in nav bar*/
 .navbar-light .navbar-brand  {
@@ -20,7 +20,7 @@
 }
 
 .nav-link {
-  color: #f1761e !important;
+  color: #0b8911 !important;
 }
 
 
@@ -36,14 +36,19 @@
 #greeting p {
   font-size: 10vw;
   text-align-last: center;
+  color: white;
 }
 
 #meBackground {
-  background-color: #0d023fbd;
+  background-color: #01355b;
 }
 
 div .header {
   margin-bottom: 20px;
+}
+
+h2 {
+  color: white;
 }
 
 /*Setting position of headshot image*/
@@ -56,9 +61,9 @@ div .header {
 }
 /*Setting style and alignment of bio to wrap around image*/
 p {
-  color: rgb(13, 34, 51);
+  color: white;
   text-align: justify;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bolder;
 }
 
