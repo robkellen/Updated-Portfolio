@@ -74,3 +74,12 @@ div .row {
   padding-right: 10px;
 }
 
+.list-group {
+  display: inherit;
+}
+
+.list-group a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+

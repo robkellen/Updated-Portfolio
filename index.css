@@ -4,7 +4,7 @@
 /* NAVBAR */
 .navbar {
   z-index: 99;
-  background-color: rgba(219, 226, 235, 0.9);
+  background-color: rgba(219, 226, 235, 0);
 }
 /*shifting page links to the right of the navbar*/
 .navbar-right {
@@ -27,9 +27,9 @@
 
 
 /* CAROUSEL */
-.carousel {
+/* .carousel {
   margin-top: -100px;
-}
+} */
 
 
 /* MAIN CONTENT */
@@ -39,8 +39,7 @@
 }
 
 #meBackground {
-  background-image: linear-gradient(to bottom, rgba(241, 241, 241, 0.966), rgba(241,118,30,1));
-  background-color: #f1761e;
+  background-color: #0d023fbd;
 }
 
 div .header {
@@ -72,4 +71,13 @@ p {
 .text-center {
   margin-top: 0;
   padding-right: 10px;
+}
+
+.list-group {
+  display: inherit;
+}
+
+.list-group a {
+  padding-left: 5px;
+  padding-right: 5px;
 }
