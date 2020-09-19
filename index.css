@@ -11,19 +11,10 @@
   margin-left: auto;
 }
 
-
+/* adding color to links at top right of navbar */
 .nav-link {
   color: #0b8911 !important;
 }
-
-
-
-
-/* CAROUSEL */
-/* .carousel {
-  margin-top: -100px;
-} */
-
 
 /* MAIN CONTENT */
 #greeting p {

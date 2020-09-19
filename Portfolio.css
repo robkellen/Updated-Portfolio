@@ -5,25 +5,22 @@
 /* NAVBAR */
 .navbar {
   z-index: 99;
-  background-color: rgba(219, 226, 235, 0.9);
+  background-color: #01355b;
 }
 /*shifting page links to the right of the navbar*/
 .navbar-right {
   margin-left: auto;
 }
-/*Making background behind my name in navbar blue*/
-.navbar-brand {
-  background-color: #8a62ec;
-}
+
 /*making my name font color white in nav bar*/
 .navbar-light .navbar-brand  {
   color: white;
   padding-right: 5px;
   padding-left: 5px;
 }
-
+/* adding color to links at top right of navbar */
 .nav-link {
-  color: #8a62ec !important;
+  color: #0b8911 !important;
 }
 
 
