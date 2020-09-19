@@ -21,6 +21,8 @@
 /* adding color to links at top right of navbar */
 .nav-link {
   color: #0b8911 !important;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 /* MAIN CONTENT */
@@ -42,7 +44,7 @@
 }
 
 .col-sm {
-  background-color: rgb(11, 137, 17, 0.8);
+  background-color: #0b8911 ;
   padding: 10px;
   width: 100%;
   padding-right: 30px;

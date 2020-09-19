@@ -8,16 +8,15 @@
   margin-left: auto;
 }
 .nav-link {
-  color: rgba(57, 142, 240, 0.884) !important;
+  color: #0b8911 !important;
+  font-weight: 700;
+  font-size: 20px;
 }
 .navbar {
   z-index: 99;
-  background-color: rgba(219, 226, 235, 0.9);
+  background-color: #01355b;
 }
-/*Making background behind my name in navbar blue*/
-.navbar-brand {
-  background-color: rgba(57, 142, 240, 0.884);
-}
+
 /*making my name font color white in nav bar*/
 .navbar-light .navbar-brand  {
   color: white;
@@ -27,8 +26,7 @@
 /* MAIN BODY */
 /*Setting background image for page*/
 .bg {
-  background-image: url("Assets/sincerely-media-UMyt7_RrKpY-unsplash.jpg");
-  background-color: lightblue;
+  background-color: #01355b;
   height: 1350px;
   width: 100%;
   background-position: center;
@@ -56,7 +54,7 @@ div .row {
 
 .card {
   background-color: rgba(219, 226, 235, 0.8);
-  margin-right: 10px;
+  margin-right: 40px;
 }
 
 #mobile {
