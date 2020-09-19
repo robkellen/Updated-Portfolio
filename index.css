@@ -10,14 +10,7 @@
 .navbar-right {
   margin-left: auto;
 }
-/*Making background behind my name in navbar blue*/
-.navbar-brand {
-  background-color: #0b8911;
-}
-/*making my name font color white in nav bar*/
-.navbar-light .navbar-brand  {
-  color: white;
-}
+
 
 .nav-link {
   color: #0b8911 !important;
