@@ -21,8 +21,18 @@
 /* adding color to links at top right of navbar */
 .nav-link {
   color: #0b8911 !important;
-  font-weight: 700;
+  font-weight: 300;
   font-size: 20px;
+  float: right;
+}
+
+.navbar-toggler  {
+  color: #0b8911 !important;
+  border-color: #0b8911 !important;
+}
+
+.navbar-toggler-icon {
+  color: #0b8911 !important;
 }
 
 /* MAIN CONTENT */

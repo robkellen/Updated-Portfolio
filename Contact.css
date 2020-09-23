@@ -9,17 +9,23 @@
 }
 .nav-link {
   color: #0b8911 !important;
-  font-weight: 700;
+  font-weight: 300;
   font-size: 20px;
+  float: right;
 }
+
+.navbar-toggler  {
+  color: #0b8911 !important;
+  border-color: #0b8911 !important;
+}
+
+.navbar-toggler-icon {
+  color: #0b8911 !important;
+}
+
 .navbar {
   z-index: 99;
   background-color: #01355b;
-}
-
-/*making my name font color white in nav bar*/
-.navbar-light .navbar-brand  {
-  color: white;
 }
 
 
